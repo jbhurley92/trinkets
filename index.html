@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Trinket Trader</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <script src="http://backbonejs.org/backbone-min.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Trinket Trader</h1>
+        <h2>World renowned trinket trading</h2>
+    </header>
+    <main>
+        <h3>Golden trinkets</h3>
+        <p>Current price: <span id="exchange">-.--</span> coins</p>
+        <div id="controls">
+            <button id="buy">+ Buy 1</button>
+            <button id="buy5">+ Buy 5</button>
+            <button id="sell">- Sell 1</button>
+            <button id="sell5">- Sell 5</button>
+        </div>
+        <div id="controls2">
+            <button id="start">Auto-Trading <span class="on2">ON</span></button>
+            <button id="stop">Auto-Trading <span class="off2">OFF</span></button>
+            <p>**Auto-Trading is <span class="on2">ON</span> by default. Click <span class="off2">OFF</span> button to turn off, and <span class="on2">ON</span> button to turn on again.**</p>
+        </div>
+        <div id="resources">
+            <h3>Wealth</h3>
+            <p>Coins: <span id="coin-wealth">---</span></p>
+            <p>Trinkets: <span id="trinket-wealth">---</span></p>
+        </div>
+        <ol id="log-wealth2">
+            <h3>Transaction Log</h3>
+            </ol>
+    </main>
+</body>
+
+</html>
